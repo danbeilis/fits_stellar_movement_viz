@@ -1,4 +1,4 @@
-# fits_stellar_movement_viz
+# FITS 3D & Stellar Movement Visualization Program
 Astronomy FITS 3D Visualization using Mayavi and Stellar Movement Visualizer
 The program enables examining the 3D structure of any fits datacube file, sharing some of the features as the AstroSlicer extension (https://www.slicer.org/wiki/Documentation/Nightly/Extensions/SlicerAstro) for the 3DSlicer visualization software package (https://www.slicer.org/). 
 

@@ -1,8 +1,5 @@
 # FITS 3D & Stellar Movement Visualization Program
-Astronomy FITS 3D Visualization using Mayavi and Stellar Movement Visualizer
-The program enables examining the 3D structure of any fits datacube file, sharing some of the features as the AstroSlicer extension (https://www.slicer.org/wiki/Documentation/Nightly/Extensions/SlicerAstro) for the 3DSlicer visualization software package (https://www.slicer.org/). 
-
-The program was written in Python and utilizes the 3D visualization capabilities of the Mayavi software package (https://docs.enthought.com/mayavi/mayavi/) that wraps the VTK rendering engine (https://vtk.org/) which is embedded in a graphical user interface (GUI) using the TraitsUI GUI visualization package (https://docs.enthought.com/traitsui/).
+The program enables examining the 3D structure of any fits datacube file, sharing some of the features as the AstroSlicer extension (https://www.slicer.org/wiki/Documentation/Nightly/Extensions/SlicerAstro) for the 3DSlicer visualization software package (https://www.slicer.org/). It was written in Python and utilizes the 3D visualization capabilities of the Mayavi software package (https://docs.enthought.com/mayavi/mayavi/) that wraps the VTK rendering engine (https://vtk.org/) which is embedded in a graphical user interface (GUI) using the TraitsUI GUI visualization package (https://docs.enthought.com/traitsui/).
 
 The program allows the following:
 * FITS file 3D visualization cropping using adjustable sliders for the 2 spatial axes and the spectral/kinematic axis.
@@ -20,3 +17,40 @@ Example screenshots of the program showing the main interface and the 2D slicing
 Example screenshots of the program showing the star movement curves interface with cones turned off and on:
 ![Screenshot of the Stellar Movement Program showing the star movement curves interface with cones turned off](/stellar_movement_program_3.png)
 ![Screenshot of the Stellar Movement Program showing the star movement curves interface with cones turned on](/stellar_movement_program_4.png)
+
+## Requirements
+
+The program is written in Python and was only tested on version 3.7 on Windows but should probably work on. Due to complications with the packages dependencies, the program will work only with the following package versions (any other packages version combinations will not necessarily work):
+* altgraph==0.17
+* apptools==4.5.0
+* astropy==4.0.1.post1
+* configobj==5.0.6
+* cycler==0.10.0
+* envisage==4.9.2
+* future==0.18.2
+* h5py==2.10.0
+* kiwisolver==1.2.0
+* matplotlib==3.2.1
+* mayavi==4.7.1
+* numpy==1.18.2
+* packaging==20.3
+* pefile==2019.4.18
+* pip==20.0.2
+* pyface==6.1.2
+* Pygments==2.6.1
+* PyInstaller==3.6
+* pyparsing==2.4.7
+* PyQt5==5.14.2
+* PyQt5-sip==12.7.2
+* python-dateutil==2.8.1
+* scipy==1.4.1
+* setuptools==46.1.3
+* sip==5.2.0
+* six==1.14.0
+* spectral-cube==0.4.5
+* toml==0.10.0
+* traits==6.0.0
+* traitsui==6.1.3
+* vtk==8.1.2
+* wheel==0.34.2
+* xmltodict==0.12.0
